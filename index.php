@@ -61,41 +61,36 @@ $hero_image = 'quarter-four.png';
 
 
 ?>
-<!doctype html>
-<html>
+    <!doctype html>
+    <html>
 
-<head>
-    <meta charset="UTF-8">
-    <title>PHP Practice</title>
-    <link href='http://fonts.googleapis.com/css?family=Lato|Passion+One:700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
-<![endif]-->
-    <!--[if gt IE 8]><!-->
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
-    <!--<![endif]-->
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>PHP Practice</title>
+        <link href='http://fonts.googleapis.com/css?family=Lato|Passion+One:700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<body>
-    <div id="container">
+    <body>
+        <div id="container">
 
-        <?php include 'includes/header.php'; ?>
+            <?php include 'includes/header.php'; ?>
 
-        <section id="hero">
-       
-
-            <img class="pure-img" src='images/<?php echo $hero_image ?>' alt='<?php echo $hero_alt ?>' />
-     <h1><?php echo $greeting; ?></h1>
-
-        </section>
-
-        <?php include 'includes/footer.php'; ?>
-
-    </div>
+                <section id="hero">
 
 
-</body>
+                    <img class="pure-img" src='images/<?php echo $hero_image ?>' alt='<?php echo $hero_alt ?>' />
+                    <h1><?php echo $greeting; ?></h1>
 
-</html>
+                </section>
+
+                <?php include 'includes/footer.php'; ?>
+
+        </div>
+
+
+    </body>
+
+    </html>
