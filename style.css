@@ -1,0 +1,63 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #403F3E;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Passion One', cursive;
+}
+
+h1 {
+    color: #A8240A;
+    font-size: 50px;
+    margin: .1em 0;
+}
+
+h2,
+h3 {
+    color: #CF6E5B;
+}
+
+h2,
+h3,
+p {
+    padding: 0 1em;
+}
+
+#container {
+    padding: 1em;
+}
+
+header {
+    border-bottom: solid 3px #CF6E5B;
+}
+
+#hero {
+    background-color: #BFBCBA;
+}
+
+#hero img {
+    margin: auto;
+}
+
+#hero h1 {
+	
+	
+	  z-index: 3;
+  position: relative;
+  margin-top: -1em;
+  text-align:center;
+  font-size:5em;
+  
+  }
+
+footer {
+    padding: 30px 0;
+    background-color: #7F7D7C;
+}
+
+.text-align-right {
+    text-align: right;
+}
